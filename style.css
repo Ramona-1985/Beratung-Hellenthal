@@ -134,3 +134,126 @@ footer{
     color: #6f9c8a;
     font-weight: 600;
 }
+.legal-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 140px 30px 80px;
+    line-height: 1.8;
+}
+
+.legal-page h1,
+.legal-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.legal-page h3 {
+    margin-top: 35px;
+    color: #6f9c8a;
+}
+
+.legal-page p,
+.legal-page li {
+    margin-bottom: 12px;
+}
+
+.legal-page ul {
+    margin-left: 20px;
+}
+/* =========================================
+   MOBILE ANPASSUNGEN
+========================================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .nav-links li {
+        margin: 0;
+    }
+
+    .hero {
+        padding: 120px 20px 80px;
+        min-height: auto;
+    }
+
+    .hero-logo {
+        max-width: 180px;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+    }
+
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-name {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 60px 20px;
+    }
+
+    .section h2 {
+        font-size: 2rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .values {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .value {
+        width: 100%;
+    }
+
+    .contact-box {
+        padding: 25px;
+    }
+
+    .profile-image {
+        width: 180px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .legal-page {
+        padding: 120px 20px 60px;
+    }
+}
